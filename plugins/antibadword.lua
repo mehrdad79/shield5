@@ -62,6 +62,7 @@ return {
     "jende(.*)",
     "obi(.*)",
     "nane(.*)"
+    "چچچچ(.*)"
   },
   run = run
 }
