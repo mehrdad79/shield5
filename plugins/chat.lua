@@ -1,97 +1,161 @@
 local function run(msg)
 if msg.text == "hi" then
-  return "hello"
+	return "Hi Baby :)"
 end
 if msg.text == "Hi" then
-  return "Hello"
+	return "Hello Honey :)"
 end
-if msg.text == "Khubi?" then
-  return "merc to chetor?"
+if msg.text == "Hello" then
+	return "Hi :)"
+end
+if msg.text == "hello" then
+	return "Hi Honey"
 end
 if msg.text == "Salam" then
-  return "Saaalam"
+	return "Salam Azizam"
 end
 if msg.text == "salam" then
-  return "Salaam"
+	return "Salam"
 end
-if msg.text == "shield" then
-  return "janam"
+if msg.text == "مهرداد" then
+	return "Ha?"
 end
-if msg.text == "shield" then
-  return "junam"
+if msg.text == "مهرداد" then
+	return "Koft Chikaresh Dari?"
 end
-if msg.text == "SHIELD" then
-  return "chie?"
+if msg.text == "مهرداد" then
+	return "Rafte Lala :/"
 end
-if msg.text == "bot" then
-  return "ha?"
+if msg.text == "مهرداد" then
+	return "Khabe :|"
 end
-if msg.text == "Bot" then
-  return "Haaa???"
+if msg.text == "mamshotak" then
+	return "Nagaiiidam!"
+end
+if msg.text == "Mamshotak" then
+	return "چچچ نگاییدم"
 end
 if msg.text == "?" then
-  return "chi?"
+	return "Chiye?"
+end
+if msg.text == "؟" then
+	return "Kiiiiiir :|"
+end
+if msg.text == "BK" then
+	return "BK Ke BK 😐"
+end
+if msg.text == "Kir" then
+	return "Dos Dari?"
+end
+if msg.text == "kir" then
+	return "Dos Dari?"
 end
 if msg.text == "Bye" then
-  return "Bye"
+	return "Bye Dayus"
 end
 if msg.text == "bye" then
-  return "Bye Bye"
-end
-if msg.text == "khubi?" then
-    return "merc"
-end
-if msg.text == "bax" then
-    return "jun"
-end
-if msg.text == "Bax" then
-  return "Jun"
+	return "Bye"
 end
 if msg.text == "سلام" then
-    return "سلااام"
+	return "سلام"
+end
+if msg.text == "سلام تله اسکرول" then
+	return "سلام عزیزم :)"
+end
+if msg.text == "سلام تله اسکرول" then
+	return "سلام عزیزم :)"
+end
+if msg.text == "ممشوتک" then
+	return "چچچ نگاییدم"
+end
+if msg.text == "مهرداد" then
+	return "رفته استخر :|"
+end
+if msg.text == "تله اسکرول" then
+	return "ها چیه؟"
+end
+if msg.text == "ایلیا" then
+	return "با جیگرم چیکار داری؟"
+end
+if msg.text == "سپهر" then
+	return "رفته توالت وایسا بیاد"
+end
+if msg.text == "مبینا" then
+	return "لال شو اسمشو نیار :|"
+end
+if msg.text == "مهرداد" then
+	return "با باباییم چیکار داری؟ 😐"
+end
+if msg.text == "mehrdad79k" then
+	return "با باباییم چیکار داری؟ 😐"
+end
+if msg.text == "کله شیری" then
+	return "باباته کله کیییری 😐"
+end
+if msg.text == "زن مهرداد اسمش چیه؟" then
+	return "زن مهرداد میشه مامان من کونی 😕"
+end
+if msg.text == "بات" then
+	return "چیه چس ممبر 🤔"
+end
+if msg.text == "ربات" then
+	return "چیه چس ممبر 🤔"
+end
+if msg.text == "اسکرول" then
+	return "چچچ سیک"
+end
+if msg.text == "تله اسکرول" then
+	return "چچچ سیک"
+end
+if msg.text == "خوبی" then
+	return "شکر خدا شما خوبی"
 end
 if msg.text == "خوبی؟" then
-  return "مرسی"
+	return "مرسی عزیزم تو خوبی؟"
 end
-if msg.text == "koskesh" then
-  return "sigar nakesh"
-end
-if msg.text == "kuni" then
-  return "fosh nadee😡😡"
-end
-if msg.text == "Koskesh" then
-  return "sigar nakesh"
-end
-if msg.text == "Kuni" then
-  return "foosh nadee😡😡"
-end
-if msg.text == "کسکش" then
-    return "سیگار نکش"
-end
-if msg.text == "کونی" then
-  return "😡😡فش ندهههههههه"
+if msg.text == "تله اسکرول خوبی؟" then
+	return "مرسی 😁"
 end
 end
 
 return {
-  description = "Chat With Robot Server", 
-  usage = "chat with robot",
-  patterns = {
+	description = "Chat With Robot Server", 
+	usage = "chat with robot",
+	patterns = {
     "^[Hh]i$",
-    "^[Kk]hubi?$",
-    "^[Ss]hield$",
-    "^SHIELD$",
-    "^[Bb]ot$",
-    "^[Bb]ye$",
-    "^?$",
+	"^[Hh]ello$",
     "^[Ss]alam$",
-    "^[Bb]ax$",
-    "^سلام",
-    "^خوبی؟",
-    "^[Kk]oskesh$",
-    "^[Kk]uni$",
-    "^کسکش",
-    "^کونی",
-    },
-  run = run,
+    "^[Mm]ehrdad$",
+    "^[Mm]ehrdad79k$",
+    "^[Mm]amshotak$",
+    "^?$",
+    "^؟$",
+    "^BK$",
+    "^[Kk]ir$",
+	"^[Bb]ye$",
+	"^سلام",
+	"^سلام تله اسکرول",
+  "^تله اسکرول سلام",
+	"^ممشوتک",	
+	"^مهرداد",	
+	"^تله اسکرول",
+	"^ایلیا",
+	"^سپهر",
+	"^مبینا",
+	"^مهرداد",
+	"^مهرداد.ک",
+	"^کله شیری",
+	"^زن مهرداد اسمش چیه؟",	
+	"^بات",
+	"^ربات",
+	"^اسکرول",
+	"^تله اسکرول",
+	"^خوبی",
+	"^خوبی؟",
+	"^اسکرول خوبی؟",
+		
+		}, 
+	run = run,
+    --privileged = true,
+	pre_process = pre_process
 }
