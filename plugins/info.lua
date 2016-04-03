@@ -57,7 +57,7 @@ local function res_user_callback(extra, success, result) -- /info <username> fun
   local um_hash = 'msgs:'..result.id..':'..extra.chat2
   user_info_msgs = tonumber(redis:get(um_hash) or 0)
   text = text..'تعداد پیام های فرستاده شده : '..user_info_msgs..'\n\n'
-  text = text..'shield Team'
+  text = text..'TeleScr0ll Team'
   send_msg(extra.receiver, text, ok_cb,  true)
   else
 	send_msg(extra.receiver, extra.user..' نام کاربری مورد نظر یافت نشد.', ok_cb, false)
@@ -208,7 +208,7 @@ local function run(msg, matches)
 	 text = text..'نام گروه : '..msg.to.title..'\n'
      text = text..'ایدی گروه : '..msg.to.id
     end
-	text = text..'\n\nshield Team'
+	text = text..'\n\nTeleScr0ll Team'
     return send_msg(receiver, text, ok_cb, true)
     end
   end
