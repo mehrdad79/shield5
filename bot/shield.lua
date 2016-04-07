@@ -261,7 +261,7 @@ function create_config( )
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-    shield bot 5.5
+    TeleScr0ll bot 1.2
     
      Hello my Good friends 
      
