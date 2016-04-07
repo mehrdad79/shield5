@@ -460,7 +460,7 @@ function run(msg, matches)
 		chat_info(receiver, returnids, {receiver=receiver})
 	end
 
-    if matches[1]:lower() == 'creategroup' and matches[2] then
+    if matches[1]:lower() == 'ساختن گروه' and matches[2] then
         group_name = matches[2]
         group_type = 'group'
         return create_group(msg)
@@ -658,7 +658,7 @@ end
 
 return {
   patterns = {
-    "^[!/#](creategroup) (.*)$",
+    "^[!/#](ساختن گروه) (.*)$",
     "^[!/#](createrealm) (.*)$",
     "^[!/#](setabout) (%d+) (.*)$",
     "^[!/#](setrules) (%d+) (.*)$",
